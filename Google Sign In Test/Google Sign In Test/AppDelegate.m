@@ -52,6 +52,20 @@ didSignInForUser:(GIDGoogleUser *)user
     NSString *givenName = user.profile.givenName;
     NSString *familyName = user.profile.familyName;
     NSString *email = user.profile.email;
+    NSString *urlStr = @"https://www.google.com/m8/feeds/contacts/default/full";
+    NSURL *url = [NSURL URLWithString:urlStr];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    NSURLResponse *response = nil;
+    NSData *data = [NSURLConnection sendSynchronousRequest:request
+                                         returningResponse:&response
+                                                     error:&error];
+    if (data) {
+        output = [[NSString alloc] initWithData:data
+                                       encoding:NSUTF8StringEncoding];
+    } else {
+        output = [error description];
+    }
+
     // ...
 }
 
