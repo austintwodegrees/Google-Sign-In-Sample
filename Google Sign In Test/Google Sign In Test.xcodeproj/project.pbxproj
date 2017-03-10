@@ -704,6 +704,7 @@
 				FCC2FE641E73436100EBDD7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCC2FE651E73436100EBDD7C /* Build configuration list for PBXNativeTarget "Google Sign In TestTests" */ = {
 			isa = XCConfigurationList;
@@ -712,6 +713,7 @@
 				FCC2FE671E73436100EBDD7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCC2FE681E73436100EBDD7C /* Build configuration list for PBXNativeTarget "Google Sign In TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -720,6 +722,7 @@
 				FCC2FE6A1E73436100EBDD7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
