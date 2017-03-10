@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC2FE3A1E73436100EBDD7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC2FE391E73436100EBDD7C /* main.m */; };
+		FCC2FE3D1E73436100EBDD7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC2FE3C1E73436100EBDD7C /* AppDelegate.m */; };
+		FCC2FE401E73436100EBDD7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC2FE3F1E73436100EBDD7C /* ViewController.m */; };
+		FCC2FE431E73436100EBDD7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC2FE411E73436100EBDD7C /* Main.storyboard */; };
+		FCC2FE451E73436100EBDD7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC2FE441E73436100EBDD7C /* Assets.xcassets */; };
+		FCC2FE481E73436100EBDD7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC2FE461E73436100EBDD7C /* LaunchScreen.storyboard */; };
+		FCC2FE531E73436100EBDD7C /* Google_Sign_In_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC2FE521E73436100EBDD7C /* Google_Sign_In_TestTests.m */; };
+		FCC2FE5E1E73436100EBDD7C /* Google_Sign_In_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC2FE5D1E73436100EBDD7C /* Google_Sign_In_TestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCC2FE4F1E73436100EBDD7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC2FE2D1E73436000EBDD7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC2FE341E73436000EBDD7C;
+			remoteInfo = "Google Sign In Test";
+		};
+		FCC2FE5A1E73436100EBDD7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC2FE2D1E73436000EBDD7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC2FE341E73436000EBDD7C;
+			remoteInfo = "Google Sign In Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCC2FE351E73436100EBDD7C /* Google Sign In Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Sign In Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC2FE391E73436100EBDD7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCC2FE3B1E73436100EBDD7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCC2FE3C1E73436100EBDD7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCC2FE3E1E73436100EBDD7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCC2FE3F1E73436100EBDD7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCC2FE421E73436100EBDD7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCC2FE441E73436100EBDD7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC2FE471E73436100EBDD7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCC2FE491E73436100EBDD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC2FE4E1E73436100EBDD7C /* Google Sign In TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google Sign In TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC2FE521E73436100EBDD7C /* Google_Sign_In_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_Sign_In_TestTests.m; sourceTree = "<group>"; };
+		FCC2FE541E73436100EBDD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC2FE591E73436100EBDD7C /* Google Sign In TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google Sign In TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC2FE5D1E73436100EBDD7C /* Google_Sign_In_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_Sign_In_TestUITests.m; sourceTree = "<group>"; };
+		FCC2FE5F1E73436100EBDD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC2FE321E73436000EBDD7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC2FE4B1E73436100EBDD7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC2FE561E73436100EBDD7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC2FE2C1E73436000EBDD7C = {
+			isa = PBXGroup;
+			children = (
+				FCC2FE371E73436100EBDD7C /* Google Sign In Test */,
+				FCC2FE511E73436100EBDD7C /* Google Sign In TestTests */,
+				FCC2FE5C1E73436100EBDD7C /* Google Sign In TestUITests */,
+				FCC2FE361E73436100EBDD7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC2FE361E73436100EBDD7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC2FE351E73436100EBDD7C /* Google Sign In Test.app */,
+				FCC2FE4E1E73436100EBDD7C /* Google Sign In TestTests.xctest */,
+				FCC2FE591E73436100EBDD7C /* Google Sign In TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC2FE371E73436100EBDD7C /* Google Sign In Test */ = {
+			isa = PBXGroup;
+			children = (
+				FCC2FE3B1E73436100EBDD7C /* AppDelegate.h */,
+				FCC2FE3C1E73436100EBDD7C /* AppDelegate.m */,
+				FCC2FE3E1E73436100EBDD7C /* ViewController.h */,
+				FCC2FE3F1E73436100EBDD7C /* ViewController.m */,
+				FCC2FE411E73436100EBDD7C /* Main.storyboard */,
+				FCC2FE441E73436100EBDD7C /* Assets.xcassets */,
+				FCC2FE461E73436100EBDD7C /* LaunchScreen.storyboard */,
+				FCC2FE491E73436100EBDD7C /* Info.plist */,
+				FCC2FE381E73436100EBDD7C /* Supporting Files */,
+			);
+			path = "Google Sign In Test";
+			sourceTree = "<group>";
+		};
+		FCC2FE381E73436100EBDD7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCC2FE391E73436100EBDD7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCC2FE511E73436100EBDD7C /* Google Sign In TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC2FE521E73436100EBDD7C /* Google_Sign_In_TestTests.m */,
+				FCC2FE541E73436100EBDD7C /* Info.plist */,
+			);
+			path = "Google Sign In TestTests";
+			sourceTree = "<group>";
+		};
+		FCC2FE5C1E73436100EBDD7C /* Google Sign In TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC2FE5D1E73436100EBDD7C /* Google_Sign_In_TestUITests.m */,
+				FCC2FE5F1E73436100EBDD7C /* Info.plist */,
+			);
+			path = "Google Sign In TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC2FE341E73436000EBDD7C /* Google Sign In Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC2FE621E73436100EBDD7C /* Build configuration list for PBXNativeTarget "Google Sign In Test" */;
+			buildPhases = (
+				FCC2FE311E73436000EBDD7C /* Sources */,
+				FCC2FE321E73436000EBDD7C /* Frameworks */,
+				FCC2FE331E73436000EBDD7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Sign In Test";
+			productName = "Google Sign In Test";
+			productReference = FCC2FE351E73436100EBDD7C /* Google Sign In Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCC2FE4D1E73436100EBDD7C /* Google Sign In TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC2FE651E73436100EBDD7C /* Build configuration list for PBXNativeTarget "Google Sign In TestTests" */;
+			buildPhases = (
+				FCC2FE4A1E73436100EBDD7C /* Sources */,
+				FCC2FE4B1E73436100EBDD7C /* Frameworks */,
+				FCC2FE4C1E73436100EBDD7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC2FE501E73436100EBDD7C /* PBXTargetDependency */,
+			);
+			name = "Google Sign In TestTests";
+			productName = "Google Sign In TestTests";
+			productReference = FCC2FE4E1E73436100EBDD7C /* Google Sign In TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCC2FE581E73436100EBDD7C /* Google Sign In TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC2FE681E73436100EBDD7C /* Build configuration list for PBXNativeTarget "Google Sign In TestUITests" */;
+			buildPhases = (
+				FCC2FE551E73436100EBDD7C /* Sources */,
+				FCC2FE561E73436100EBDD7C /* Frameworks */,
+				FCC2FE571E73436100EBDD7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC2FE5B1E73436100EBDD7C /* PBXTargetDependency */,
+			);
+			name = "Google Sign In TestUITests";
+			productName = "Google Sign In TestUITests";
+			productReference = FCC2FE591E73436100EBDD7C /* Google Sign In TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC2FE2D1E73436000EBDD7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Austin Lubetkin";
+				TargetAttributes = {
+					FCC2FE341E73436000EBDD7C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					FCC2FE4D1E73436100EBDD7C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCC2FE341E73436000EBDD7C;
+					};
+					FCC2FE581E73436100EBDD7C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCC2FE341E73436000EBDD7C;
+					};
+				};
+			};
+			buildConfigurationList = FCC2FE301E73436000EBDD7C /* Build configuration list for PBXProject "Google Sign In Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC2FE2C1E73436000EBDD7C;
+			productRefGroup = FCC2FE361E73436100EBDD7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC2FE341E73436000EBDD7C /* Google Sign In Test */,
+				FCC2FE4D1E73436100EBDD7C /* Google Sign In TestTests */,
+				FCC2FE581E73436100EBDD7C /* Google Sign In TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC2FE331E73436000EBDD7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC2FE481E73436100EBDD7C /* LaunchScreen.storyboard in Resources */,
+				FCC2FE451E73436100EBDD7C /* Assets.xcassets in Resources */,
+				FCC2FE431E73436100EBDD7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC2FE4C1E73436100EBDD7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC2FE571E73436100EBDD7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC2FE311E73436000EBDD7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC2FE401E73436100EBDD7C /* ViewController.m in Sources */,
+				FCC2FE3D1E73436100EBDD7C /* AppDelegate.m in Sources */,
+				FCC2FE3A1E73436100EBDD7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC2FE4A1E73436100EBDD7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC2FE531E73436100EBDD7C /* Google_Sign_In_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC2FE551E73436100EBDD7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC2FE5E1E73436100EBDD7C /* Google_Sign_In_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCC2FE501E73436100EBDD7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC2FE341E73436000EBDD7C /* Google Sign In Test */;
+			targetProxy = FCC2FE4F1E73436100EBDD7C /* PBXContainerItemProxy */;
+		};
+		FCC2FE5B1E73436100EBDD7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC2FE341E73436000EBDD7C /* Google Sign In Test */;
+			targetProxy = FCC2FE5A1E73436100EBDD7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCC2FE411E73436100EBDD7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC2FE421E73436100EBDD7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCC2FE461E73436100EBDD7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC2FE471E73436100EBDD7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC2FE601E73436100EBDD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCC2FE611E73436100EBDD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC2FE631E73436100EBDD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google Sign In Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AL.Google-Sign-In-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCC2FE641E73436100EBDD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google Sign In Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AL.Google-Sign-In-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCC2FE661E73436100EBDD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Google Sign In TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AL.Google-Sign-In-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google Sign In Test.app/Google Sign In Test";
+			};
+			name = Debug;
+		};
+		FCC2FE671E73436100EBDD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Google Sign In TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AL.Google-Sign-In-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google Sign In Test.app/Google Sign In Test";
+			};
+			name = Release;
+		};
+		FCC2FE691E73436100EBDD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Google Sign In TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AL.Google-Sign-In-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Google Sign In Test";
+			};
+			name = Debug;
+		};
+		FCC2FE6A1E73436100EBDD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Google Sign In TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AL.Google-Sign-In-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Google Sign In Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC2FE301E73436000EBDD7C /* Build configuration list for PBXProject "Google Sign In Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC2FE601E73436100EBDD7C /* Debug */,
+				FCC2FE611E73436100EBDD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC2FE621E73436100EBDD7C /* Build configuration list for PBXNativeTarget "Google Sign In Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC2FE631E73436100EBDD7C /* Debug */,
+				FCC2FE641E73436100EBDD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCC2FE651E73436100EBDD7C /* Build configuration list for PBXNativeTarget "Google Sign In TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC2FE661E73436100EBDD7C /* Debug */,
+				FCC2FE671E73436100EBDD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCC2FE681E73436100EBDD7C /* Build configuration list for PBXNativeTarget "Google Sign In TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC2FE691E73436100EBDD7C /* Debug */,
+				FCC2FE6A1E73436100EBDD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC2FE2D1E73436000EBDD7C /* Project object */;
+}
